@@ -1,0 +1,11 @@
+la funcion dada en python read_csv_file(sFile) , realiza una letura a cada dato
+de una fila contenida en una tabla, esta puede ser una planilla exel o una base
+de datos.csv.reader es un formato encargado de hacer eso.
+todos los arreglos creados fila a fila se guardan dentro de la variable "data"
+que es la variable retornada al llamar a la funcion.
+GPS sera igualado al valor retornado por la funcion "read_csv_file(sFile)" y 
+luego son imprimidos arreglo por arreglo (Fila a Fila).
+
+La variable nFh se abre el archivo luego iguala la variable "GPS" a los datos 
+extraidos por el archivo segun la funcion csv.reader(), luego se imprime fila a
+fila los datos.
